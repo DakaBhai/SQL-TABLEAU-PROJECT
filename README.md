@@ -26,48 +26,48 @@ The project involved the following key steps:
 1.  **Table Creation:**
     ```sql
     CREATE TABLE `covid_deaths` (
-  `iso_code` text,
-  `continent` text,
-  `location` text,
-  `date` text,
-  `population` bigint,
-  `total_cases` bigint,
-  `new_cases` bigint,
-  `total_deaths` bigint,
-  `new_deaths` bigint,
-  `reproduction_rate` bigint,
-  `icu_patients` bigint,
-  `hosp_patients` bigint
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-
-CREATE TABLE `covid_vaccination` (
-  `iso_code` text,
-  `continent` text,
-  `location` text,
-  `date` text,
-  `new_tests` double DEFAULT NULL,
-  `total_tests` double DEFAULT NULL,
-  `tests_per_case` double DEFAULT NULL,
-  `total_vaccinations` double DEFAULT NULL,
-  `people_vaccinated` double DEFAULT NULL,
-  `people_fully_vaccinated` double DEFAULT NULL,
-  `new_vaccinations` double DEFAULT NULL,
-  `stringency_index` double DEFAULT NULL,
-  `population_density` double DEFAULT NULL,
-  `median_age` double DEFAULT NULL,
-  `aged_65_older` double DEFAULT NULL,
-  `aged_70_older` double DEFAULT NULL,
-  `gdp_per_capita` double DEFAULT NULL,
-  `cardiovasc_death_rate` double DEFAULT NULL,
-  `diabetes_prevalence` double DEFAULT NULL,
-  `female_smokers` double DEFAULT NULL,
-  `male_smokers` double DEFAULT NULL,
-  `handwashing_facilities` double DEFAULT NULL,
-  `hospital_beds_per_thousand` double DEFAULT NULL,
-  `life_expectancy` double DEFAULT NULL,
-  `human_development_index` double DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+      `iso_code` text,
+      `continent` text,
+      `location` text,
+      `date` text,
+      `population` bigint,
+      `total_cases` bigint,
+      `new_cases` bigint,
+      `total_deaths` bigint,
+      `new_deaths` bigint,
+      `reproduction_rate` bigint,
+      `icu_patients` bigint,
+      `hosp_patients` bigint
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    
+    
+    CREATE TABLE `covid_vaccination` (
+      `iso_code` text,
+      `continent` text,
+      `location` text,
+      `date` text,
+      `new_tests` double DEFAULT NULL,
+      `total_tests` double DEFAULT NULL,
+      `tests_per_case` double DEFAULT NULL,
+      `total_vaccinations` double DEFAULT NULL,
+      `people_vaccinated` double DEFAULT NULL,
+      `people_fully_vaccinated` double DEFAULT NULL,
+      `new_vaccinations` double DEFAULT NULL,
+      `stringency_index` double DEFAULT NULL,
+      `population_density` double DEFAULT NULL,
+      `median_age` double DEFAULT NULL,
+      `aged_65_older` double DEFAULT NULL,
+      `aged_70_older` double DEFAULT NULL,
+      `gdp_per_capita` double DEFAULT NULL,
+      `cardiovasc_death_rate` double DEFAULT NULL,
+      `diabetes_prevalence` double DEFAULT NULL,
+      `female_smokers` double DEFAULT NULL,
+      `male_smokers` double DEFAULT NULL,
+      `handwashing_facilities` double DEFAULT NULL,
+      `hospital_beds_per_thousand` double DEFAULT NULL,
+      `life_expectancy` double DEFAULT NULL,
+      `human_development_index` double DEFAULT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
     ```
 
 2.  **Data Import:**
