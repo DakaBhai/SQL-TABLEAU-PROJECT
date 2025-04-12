@@ -186,6 +186,7 @@ The project involved the following key steps:
 ## Tableau Dashboard
 
 https://public.tableau.com/app/profile/tushar.pandey3111/viz/joint_table/Dashboard1
+
 The Tableau dashboard provides visual insights into the COVID-19 situation in India, including:
 
 1. Weekly Trend: New COVID-19 Cases vs Deaths
@@ -230,5 +231,5 @@ Through this project, I gained practical experience in:
 Tushar Pandey
 
 ## License
-
+This project is licensed under the [MIT License](LICENSE).
 
