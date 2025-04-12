@@ -185,14 +185,21 @@ The project involved the following key steps:
 
 ## Tableau Dashboard
 
-The Tableau dashboard provides visual insights into the COVID-19 situation in India, potentially including:
+https://public.tableau.com/app/profile/tushar.pandey3111/viz/joint_table/Dashboard1
+The Tableau dashboard provides visual insights into the COVID-19 situation in India, including:
 
-* Trends in daily and total cases and deaths.
-* Vaccination progress over time (e.g., total vaccinations, daily vaccinations, percentage of population vaccinated).
-* Relationship between cases, deaths, and vaccination rates.
-* Other relevant visualizations and interactive elements to explore the data.
+1. Weekly Trend: New COVID-19 Cases vs Deaths
+    - Shows the pattern of new infections and fatalities over time.
 
-*(A screenshot or link to the Tableau Public dashboard can be added here if applicable.)*
+2. Cumulative COVID-19 Impact
+    - Visualizes how total cases, deaths, and vaccinations built up throughout the pandemic.
+
+3. Vaccination Progress
+    - Compares the number of people who received at least one dose vs those who were fully vaccinated.
+
+4. Cases and Deaths Per Million
+    - Adjusts raw data to population size to provide a fair perspective on the pandemic’s reach and severity.
+
 
 ## Technologies Used
 
@@ -220,8 +227,8 @@ Through this project, I gained practical experience in:
 
 ## Author
 
-[Your Name/Handle]
+Tushar Pandey
 
 ## License
 
-[Add your preferred license here, e.g., MIT License]
+
